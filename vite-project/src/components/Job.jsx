@@ -7,6 +7,7 @@ import ClockIcon from "../assets/clock.svg";
 import MoneyIcon from "../assets/money.svg";
 import MapIcon from "../assets/map.svg";
 import recruiter from "../assets/recruiter.png";
+import Button from "./Button";
 
 const JobHeaderElement = ({ icon, text }) => (
   <div className="item">
@@ -72,7 +73,8 @@ const Job = (props) => {
                 text={`Interval salarizare neta: ${salary}`}
               />
             </div>
-            <button className="applyBtn">Aplica</button>
+
+            <Button text="Aplica" />
           </div>
         </div>
       </div>
@@ -123,7 +125,7 @@ const Job = (props) => {
             <img src={recruiter} alt="" />
             <div>
               <p className="contact__person">{aboutEmployer.name}</p>
-              <p className="contat__role">{aboutEmployer.title}</p>
+              <p className="contact__role">{aboutEmployer.title}</p>
             </div>
           </div>
           <div className="general__info">
@@ -135,6 +137,9 @@ const Job = (props) => {
               <li>Adresa: {aboutEmployer.address}</li>
             </ul>
           </div>
+        </div>
+        <div className="jd__apply">
+          <Button text="Aplica" />
         </div>
       </div>
     </div>

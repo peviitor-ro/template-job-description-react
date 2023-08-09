@@ -13,7 +13,6 @@
     padding:0;
     box-sizing: border-box;
 
-    font-family: 'Inter', sans-serif;
 }
 
 .app { 
@@ -21,6 +20,8 @@
     max-width: 1920px;
     width: 80%;
     margin : 0 auto;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* Header styles */
@@ -150,6 +151,7 @@ header {
 }
 
 .title {
+    font-family: 'Inter';
     color: var(--orange);
     font-size: 36px;
     font-weight: 700;
@@ -164,6 +166,8 @@ header {
 }
 
 .employer {
+    font-family: 'Inter';
+
     color: #0B0B0B8C;
     font-size: 18px;
     font-weight: 500;
@@ -171,6 +175,8 @@ header {
 }
 
 .departament {
+    font-family: 'Inter';
+
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
@@ -251,7 +257,8 @@ header {
 .list {
     font-size: 18px;
     font-weight: 400;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 1.2rem;
 }
 
 .list > li {
@@ -259,7 +266,8 @@ header {
 }
 
 hr {
-    border: 1px solid #00000033
+    border: 1px solid #00000033;
+    width: 70vw;
 }
 
 .jd__body > div:last-child {
@@ -291,10 +299,14 @@ hr {
     line-height: 27px;
 }
 
-.contat__role {
+.contact__role {
     font-weight: 400;
     font-size: 18px;
     color: #484848;
+}
+
+.jd__apply {
+    align-self: center;
 }
 
 @media screen and (max-width: 992px) {
@@ -375,5 +387,9 @@ hr {
 
     .jd__body {
         padding:0;
+    }
+
+    .jd__apply {
+        width: 100%;
     }
 }
