@@ -138,9 +138,9 @@ const Job = (props) => {
             </ul>
           </div>
         </div>
-        <div className="jd__apply">
-          <Button text="Aplica" />
-        </div>
+      </div>
+      <div className="jd__apply">
+        <Button text="Aplica" />
       </div>
     </div>
   );
