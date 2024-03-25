@@ -406,5 +406,6 @@ hr {
 
     .jd__apply {
         width: 100%;
+        margin-bottom: 1rem;
     }
 }
