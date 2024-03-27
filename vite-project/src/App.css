@@ -369,7 +369,7 @@ hr {
         top:0;
         right: 0;
         cursor: pointer;
-        padding: 1em;
+        padding: 1em 0 1em 1em;
     }
 
     .menu__img {
