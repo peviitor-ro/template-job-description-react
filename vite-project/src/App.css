@@ -18,7 +18,7 @@
 .app { 
     padding-top: 14px;
     max-width: 1920px;
-    width: 80%;
+    width: auto;
     margin : 0 auto;
     font-family: 'Roboto', sans-serif;
 
@@ -98,6 +98,9 @@ header {
     padding-top: 90px;
     border-radius: 30px;
     color: var(--grey);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .back__wrapper {
@@ -319,6 +322,8 @@ hr {
         display: flex;
         justify-content: space-between;
         border-bottom: none;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .jd {
@@ -364,7 +369,7 @@ hr {
         top:0;
         right: 0;
         cursor: pointer;
-        padding: 1em;
+        padding: 1em 0 1em 1em;
     }
 
     .menu__img {
@@ -399,5 +404,6 @@ hr {
 
     .jd__apply {
         width: 100%;
+        margin-bottom: 1rem;
     }
 }
